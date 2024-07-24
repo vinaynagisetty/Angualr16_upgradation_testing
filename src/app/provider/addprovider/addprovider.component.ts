@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./addprovider.component.css']
 })
 export class AddproviderComponent {
-
+  data=[
+    {name:"vinay",id:1},
+    {name:"vinay",id:1},
+    {name:"vinay",id:1},
+    {name:"vinay",id:1},
+    {name:"vinay",id:1}
+  ]
 }

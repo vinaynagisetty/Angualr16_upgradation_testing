@@ -4,7 +4,7 @@ import { AddproviderComponent } from './addprovider/addprovider.component';
 import { DeleteproviderComponent } from './deleteprovider/deleteprovider.component';
 import { ModuleARoutingModule } from './provider-routing.module';
 
-
+import { NgSelectModule } from '@ng-select/ng-select';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,8 @@ import { ModuleARoutingModule } from './provider-routing.module';
   ],
   imports: [
     CommonModule,
-    ModuleARoutingModule
+    ModuleARoutingModule,
+    NgSelectModule
   ]
 })
 export class ProviderModule { }

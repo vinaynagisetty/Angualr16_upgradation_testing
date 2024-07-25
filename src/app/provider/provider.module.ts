@@ -7,14 +7,12 @@ import { ModuleARoutingModule } from './provider-routing.module';
 import { NgSelectModule } from '@ng-select/ng-select';
 
 @NgModule({
-  declarations: [
-    AddproviderComponent,
-    DeleteproviderComponent
-  ],
-  imports: [
-    CommonModule,
-    ModuleARoutingModule,
-    NgSelectModule
-  ]
+    imports: [
+        CommonModule,
+        ModuleARoutingModule,
+        NgSelectModule,
+        AddproviderComponent,
+        DeleteproviderComponent
+    ]
 })
 export class ProviderModule { }

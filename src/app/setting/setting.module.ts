@@ -4,18 +4,18 @@ import { HistoryComponent } from './history/history.component';
 import { UsermangementComponent } from './usermangement/usermangement.component';
 import { ModuleBRoutingModule } from './setting-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DataTableComponent } from './data-table/data-table.component';
 
 
 
 @NgModule({
-  declarations: [
-    HistoryComponent,
-    UsermangementComponent
-  ],
-  imports: [
-    CommonModule,
-    ModuleBRoutingModule,
-    ReactiveFormsModule
-  ]
+    imports: [
+        CommonModule,
+        ModuleBRoutingModule,
+        ReactiveFormsModule,
+        HistoryComponent,
+        UsermangementComponent,
+        DataTableComponent
+    ]
 })
 export class SettingModule { }

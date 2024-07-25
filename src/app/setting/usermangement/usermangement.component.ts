@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms';
+import { NgIf } from '@angular/common';
 
 @Component({
-  selector: 'app-usermangement',
-  templateUrl: './usermangement.component.html',
-  styleUrls: ['./usermangement.component.css']
+    selector: 'app-usermangement',
+    templateUrl: './usermangement.component.html',
+    styleUrls: ['./usermangement.component.scss'],
+    standalone: true,
+    imports: [ReactiveFormsModule, NgIf]
 })
 export class UsermangementComponent {
   form: FormGroup;

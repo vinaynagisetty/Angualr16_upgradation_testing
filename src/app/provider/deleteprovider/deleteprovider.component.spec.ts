@@ -8,8 +8,8 @@ describe('DeleteproviderComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [DeleteproviderComponent]
-    });
+    imports: [DeleteproviderComponent]
+});
     fixture = TestBed.createComponent(DeleteproviderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
